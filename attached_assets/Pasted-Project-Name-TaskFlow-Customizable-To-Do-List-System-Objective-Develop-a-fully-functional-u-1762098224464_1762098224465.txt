@@ -1,0 +1,139 @@
+Project Name:
+TaskFlow – Customizable To-Do List System
+
+🧩 Objective
+
+Develop a fully functional, user-ready MVP for a Customizable To-Do List App that allows users to create, manage, and personalize tasks with flexibility, real-time syncing, and smart productivity features. The app must be modular, scalable, and responsive across all devices.
+
+⚙️ Core MVP Features
+1. User System
+
+✅ Email & password authentication (Sign up, Login, Logout, Forgot password)
+
+✅ OAuth login (Google, optional for MVP phase 2)
+
+✅ User profile section (editable name, theme preference, avatar)
+
+✅ Secure backend authentication (JWT or Firebase Auth)
+
+2. Task Management
+
+✅ Create, edit, mark as complete/incomplete, delete, and restore tasks
+
+✅ Add optional subtasks (nested up to 2 levels)
+
+✅ Assign priority levels (Low, Medium, High, Critical)
+
+✅ Add due date, time, and reminders
+
+✅ Optional recurring tasks (daily, weekly, monthly, custom)
+
+✅ Task progress tracking (percentage completion for lists and subtasks)
+
+✅ Bulk selection and action (delete, complete, move to folder)
+
+3. Customizable Lists & Categories
+
+✅ Users can create custom folders or categories (e.g., Work, Personal, School, etc.)
+
+✅ Each category can have its own color, icon, and background
+
+✅ Drag-and-drop reordering of tasks and categories
+
+4. Smart Filters & Sorting
+
+✅ Filters: Today, Upcoming, Completed, Overdue
+
+✅ Sort by: Priority, Due Date, Date Created, Alphabetical
+
+✅ Search bar with live filtering
+
+5. UI / UX Requirements
+
+✅ Minimal, clean, and responsive layout (mobile-first but adaptive to desktop)
+
+✅ Two main screens: “Dashboard” and “Task Details”
+
+✅ Light/Dark mode toggle
+
+✅ Option to customize font size and color themes
+
+✅ Modern iconography and rounded UI components
+
+6. Notifications & Reminders
+
+✅ Local notification support for due dates
+
+✅ Daily summary reminder option (“You have X tasks today”)
+
+7. Data Storage
+
+✅ Cloud-based storage (Firebase Firestore, Supabase, or MongoDB Atlas)
+
+✅ Real-time sync across devices
+
+✅ Offline caching and auto-sync when connection resumes
+
+8. Settings
+
+✅ Change display mode (Light/Dark/Auto)
+
+✅ Manage notification preferences
+
+✅ Reset all data (with confirmation dialog)
+
+✅ Backup/restore user data manually
+
+🧠 Additional MVP Enhancements (If Time Permits)
+
+AI task suggestions (“Would you like to repeat this task next week?”)
+
+Natural language task input (e.g., “Meet John tomorrow at 3 PM”)
+
+Analytics dashboard (task completion stats, streaks, productivity score)
+
+Widget or Quick Add shortcut on mobile
+
+🧪 Technical Stack Recommendation
+
+Frontend: React (Next.js optional), Tailwind CSS, Framer Motion
+
+Backend: Firebase or Node.js + Express
+
+Database: Firebase Firestore / MongoDB
+
+Auth: Firebase Auth / JWT
+
+Notifications: OneSignal or native browser notifications
+
+Deployment: Replit, Vercel, or Netlify (for MVP)
+
+🧰 Functional Requirements
+
+Must be fully interactive and data-persistent (not a static prototype).
+
+Every function (add/edit/delete) must immediately reflect in the UI.
+
+Must have error handling and validation (e.g., task title required).
+
+Backend must be secured from unauthorized access.
+
+📊 Admin Dashboard (Optional for MVP Phase 2)
+
+Overview of total users, total tasks, completion rate
+
+Option to send broadcast announcements or system updates
+
+✅ MVP Completion Criteria
+
+All core features fully functional, tested, and bug-free
+
+Responsive UI verified across major screen sizes
+
+Authentication + data persistence confirmed
+
+Ready to deploy on live hosting (Replit or Vercel)
+
+🪄 Prompt Goal
+
+“Generate a fully functional, professional MVP of TaskFlow, a customizable to-do list web app that includes all the features listed above. Ensure real backend connectivity, editable task lists, and user customization options. The output must be Replit-ready and immediately usable as a live app, not a prototype.”
